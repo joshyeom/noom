@@ -1,3 +1,4 @@
+
 const $messageForm = document.querySelector("#messageForm");
 const $nicknameForm = document.querySelector("#nicknameForm");
 const $message = $messageForm.querySelector("#message");
@@ -50,3 +51,4 @@ const handleNicknameSubmit = (event) => {
 
 $messageForm.addEventListener("submit", handleSubmit);
 $nicknameForm.addEventListener("submit", handleNicknameSubmit);
+
